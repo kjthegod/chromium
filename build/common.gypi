@@ -3570,7 +3570,7 @@
         # Enable -Werror by default, but put it in a variable so it can
         # be disabled in ~/.gyp/include.gypi on the valgrind builders.
         'variables': {
-          'werror%': '-Werror',
+          'werror%': '',
           'libraries_for_target%': '',
         },
         'defines': [
