@@ -34,8 +34,9 @@ enum AudioCodec {
   kCodecPCM_S16BE = 10,
   kCodecPCM_S24BE = 11,
   kCodecOpus = 12,
-  // kCodecEAC3 = 13,
+  kCodecEAC3 = 13,
   kCodecPCM_ALAW = 14,
+  kCodecAC3 = 15,
   // DO NOT ADD RANDOM AUDIO CODECS!
   //
   // The only acceptable time to add a new codec is if there is production code

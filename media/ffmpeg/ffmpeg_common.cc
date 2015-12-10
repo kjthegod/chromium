@@ -92,6 +92,10 @@ static AudioCodec CodecIDToAudioCodec(AVCodecID codec_id) {
       return kCodecPCM_MULAW;
     case AV_CODEC_ID_OPUS:
       return kCodecOpus;
+    case AV_CODEC_ID_EAC3:
+    	return kCodecEAC3;
+    case AV_CODEC_ID_AC3:
+    	return kCodecAC3;
     default:
       DVLOG(1) << "Unknown audio CodecID: " << codec_id;
   }
@@ -139,6 +143,10 @@ static AVCodecID AudioCodecToCodecID(AudioCodec audio_codec,
       return AV_CODEC_ID_PCM_MULAW;
     case kCodecOpus:
       return AV_CODEC_ID_OPUS;
+    case kCodecEAC3:
+    	return AV_CODEC_ID_EAC3;
+    case kCodecAC3:
+    	return AV_CODEC_ID_AC3;
     default:
       DVLOG(1) << "Unknown AudioCodec: " << audio_codec;
   }
