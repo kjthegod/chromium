@@ -346,6 +346,10 @@ static const char* const supported_image_types[] = {
 // A comprehensive mime type list: http://plugindoc.mozdev.org/winmime.php
 // This set of codecs is supported by all variations of Chromium.
 static const char* const common_media_types[] = {
+  //FLAC.
+  "audio/flac"
+  "audio/x-flac
+
   // Ogg.
   "audio/ogg",
   "application/ogg",
