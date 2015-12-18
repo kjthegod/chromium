@@ -207,6 +207,7 @@ static const MimeInfo primary_mappings[] = {
   { "image/jpeg", "jpeg,jpg" },
   { "image/webp", "webp" },
   { "image/png", "png" },
+  { "audio/flac", "flac" },
   { "video/mp4", "mp4,m4v" },
   { "audio/x-m4a", "m4a" },
   { "audio/mp3", "mp3" },
@@ -347,8 +348,8 @@ static const char* const supported_image_types[] = {
 // This set of codecs is supported by all variations of Chromium.
 static const char* const common_media_types[] = {
   //FLAC.
-  "audio/flac"
-  "audio/x-flac
+  "audio/flac",
+  "audio/x-flac",
 
   // Ogg.
   "audio/ogg",
